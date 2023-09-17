@@ -2,7 +2,7 @@ import {Routes, Route, Outlet} from 'react-router-dom'
 import Home from "./pages/Home";
 import Navbar from './components/NavBar';
 import Footer from './components/Footer';
-// import RecipeDetail from './pages/RecipeDetail';
+import RecipeDetail from './pages/RecipeDetail';
 
 function Layout(){
   return (
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />
-          {/* <Route path='recipes/:id' element={<RecipeDetail />} /> */}
+          <Route path='recipes/:id' element={<RecipeDetail />} />
         </Route>
       </Routes>
     </div>
