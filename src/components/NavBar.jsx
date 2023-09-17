@@ -22,9 +22,6 @@ const Navbar = () => {
                     <li>
                         <a href="/#recipes">Explore</a>
                     </li>
-                    <li>
-                        <a href="/favorites">Favorites</a>
-                    </li>
                 </ul>
 
                 <Button
