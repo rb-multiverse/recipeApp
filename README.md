@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Food Recipe Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Application Screenshot](screenshot.png)
 
-## Available Scripts
+This project is a Food Recipe Application created as a part of the Multiverse Front End Bootcamp project. I have developed a dynamic and user-friendly food recipe application using a modern tech stack that includes React JS, Tailwind CSS, and the Edamam Recipe API. This front-end program offers a seamless and enjoyable experience for users looking to explore and discover new culinary delights.
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+The Food Recipe Application is a web-based platform designed to help users discover, explore, and prepare a wide variety of delicious recipes. This application is built using React JS, and Tailwind CSS, and integrates with the Edamam Recipe API to provide users with a rich and engaging culinary experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Recipe Search:** Search for recipes by keywords, ingredients, or dietary preferences, powered by the Edamam Recipe API.
 
-### `npm test`
+- **Detailed Recipe Pages:** Explore individual recipe pages with ingredients, step-by-step cooking instructions, nutritional information, and user reviews.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Filtering and Sorting:** Filter and sort recipes by criteria such as cooking time, cuisine type, or dietary restrictions.
+  
+- **Responsive Design:** The application is fully responsive, ensuring a seamless experience on various devices.
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Front-End Framework:** React JS
+- **CSS Framework:** Tailwind CSS
+- **API Integration:** Edamam Recipe API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to get the Food Recipe Application up and running on your local machine:
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/yourusername/food-recipe-app.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   cd food-recipe-app
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install dependencies:
 
-## Learn More
+   ```bash
+   npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Configure API Key:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Obtain an API key from Edamam Recipe API and configure it in the application (src/config/api.js).
 
-### Code Splitting
+5. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm start
 
-### Analyzing the Bundle Size
+6. Open your web browser and access the application at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
