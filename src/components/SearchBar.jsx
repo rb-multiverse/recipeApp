@@ -12,7 +12,7 @@ const Searchbar = ({
 }) => {
   return (
     <div>
-      <div className='relative'>
+      <div className='relative pb-12'>
         <input
           type={type || "text"}
           name={name}
@@ -25,7 +25,7 @@ const Searchbar = ({
            w-full p-2.5 outline-none px-5 placeholder:text-sm shadow-xl`}
         />
         {rightIcon && (
-          <div className='absolute inset-y-0 right-0 flex items-center pr-4 cursor-pointer'>
+          <div className='absolute inset-y-0 right-0 flex items-center pr-4 cursor-pointer pb-12'>
             {rightIcon}
           </div>
         )}
